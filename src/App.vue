@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <div class="font-bold text-white bg-neutral-800">Hello World</div>
+  <div class="p-0 m-0 w-full h-screen overflow-hidden font-google-style">
+    <google-page />
   </div>
 </template>
 
 <script setup lang="ts">
+import googlePage from '@/views/Google.vue'
 </script>
-  
-<style scoped>
-</style>
