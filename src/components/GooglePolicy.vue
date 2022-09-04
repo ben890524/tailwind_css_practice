@@ -1,5 +1,6 @@
 <template>
-  <div class="px-32 py-3.5 bg-gray-175 text-sm text-google-footer-color flex justify-around items-center border-t-2 border-gray-200">
+  <div
+    class="px-32 py-3.5 bg-gray-175 text-sm text-google-footer-color flex justify-around items-center border-t-2 border-gray-200 full-desktop:px-5 full-desktop:justify-between">
     <div>
       <span class="px-3.5 google-footer-items">廣告</span>
       <span class="px-3.5 google-footer-items">商業</span>
@@ -16,7 +17,7 @@
 
 </script>
 <style scoped lang="postcss">
-.google-footer-items:hover{
-  @apply underline;
+.google-footer-items:hover {
+  @apply underline cursor-pointer;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-[calc(100%_-_560px)] flex justify-center items-center">
+  <div class="w-full h-[calc(100%_-_560px)] max-h-290px flex justify-center items-end">
     <div class="mt-16">
       <img class="w-full" :src="googleIcon" alt="">
     </div>

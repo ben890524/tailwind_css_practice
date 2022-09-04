@@ -1,7 +1,8 @@
 <template>
   <div class="w-full flex justify-center items-center flex-col p-5">
     <div class="w-584px relative">
-      <input class="w-full h-12 pl-12 border-2 border-solid border-gray-150 rounded-full outline-none" type="text" />
+      <input class="w-full h-12 pl-12 border-2 border-solid border-gray-150 rounded-full outline-none hover:shadow-md"
+        type="text" />
       <div class="w-3 absolute top-4 left-4">
         <img class="m-1 w-full" :src="googleSearchIcon" alt="">
       </div>

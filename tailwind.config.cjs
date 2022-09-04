@@ -14,6 +14,7 @@ module.exports = {
         '15px': '15px'
       },
       spacing: {
+        '290px': '290px',
         '584px': '584px',
       },
       colors: {
@@ -23,6 +24,9 @@ module.exports = {
         'google-button-color': '#3c4043',
         'google-footer-color': '#70757a'
       },
+      screens: {
+        'full-desktop': '1200px'
+      }
     },
   },
   plugins: [],
