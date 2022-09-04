@@ -13,7 +13,7 @@ const props = defineProps({
 </script>
 <style scoped lang="postcss">
 .google-search-button {
-  @apply cursor-pointer border-2 border-solid border-transparent;
+  @apply cursor-pointer border-2 border-solid border-transparent rounded;
 }
 
 .google-search-button:hover {
