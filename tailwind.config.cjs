@@ -8,13 +8,21 @@ module.exports = {
     fontFamily: {
       'google-style': ['arial', 'sans-serif'],
     },
-    colors:{
-      'gray-150': '#f0f0f0'
-    },
     extend: {
       fontSize: {
-        '13px': '13px'
-      }
+        '13px': '13px',
+        '15px': '15px'
+      },
+      spacing: {
+        '584px': '584px',
+      },
+      colors: {
+        'gray-125': '#f8f9fa',
+        'gray-150': '#f0f0f0',
+        'gray-175': '#f2f2f2',
+        'google-button-color': '#3c4043',
+        'google-footer-color': '#70757a'
+      },
     },
   },
   plugins: [],
